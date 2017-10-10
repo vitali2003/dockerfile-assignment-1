@@ -16,3 +16,4 @@ COPY . .
 CMD ["tini", "--", "node", "./bin/www"]
 # docker build -t testnode .
 # docker run --rm --name=testnode -p 80:3000 testnode
+#
